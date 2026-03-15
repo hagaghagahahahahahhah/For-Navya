@@ -192,7 +192,7 @@ white-space:pre-line;
 <!-- MUSIC -->
 
 <audio id="music" preload="auto" loop>
-<source src="him.mp3" type="audio/mpeg">
+<source src="Him.mp3" type="audio/mpeg">
 </audio>
 
 <script>
@@ -203,19 +203,12 @@ document.getElementById("tapBtn").onclick=function(){
 
 let music=document.getElementById("music")
 
-music.muted=true
-music.play().then(()=>{
-music.pause()
-music.currentTime=0
-music.muted=false
-music.play()
-}).catch(()=>{})
+music.play().catch(()=>{})
 
 this.style.display="none"
 document.getElementById("question").style.display="block"
 
 }
-
 /* CONTINUE */
 
 document.getElementById("continueBtn").onclick=function(){
