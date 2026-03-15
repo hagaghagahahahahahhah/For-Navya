@@ -1,3 +1,4 @@
+#CLICK ON CODE AND DOWNLOAD ZIP THEN EXTRACT FILE OPEN THE WOWOWOWOWOWOW
 A Small Website For One Person
 
 This repository exists for a very simple reason.
